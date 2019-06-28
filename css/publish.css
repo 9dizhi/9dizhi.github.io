@@ -1,0 +1,168 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F8F9FA;
+    color: #fff;
+    font-family:-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+#main {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #6C757D;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+.field.desc ul>li {
+    text-align: left;
+	font-size: 14px;
+}
+
+@media (max-width: 500px) {
+    #main {
+        padding: 0 5px;
+    }
+    .field {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .field.desc ul {
+        margin: 0 15px;
+    }
+    .field.desc ul>li {
+        text-align: left;
+    }
+}
+
+ul>li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-align: center;
+}
+ul>li.text {
+    font-size: 12px;
+	clear:both;
+	width:100%;
+}
+
+.field .title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #343A40;
+}
+a, a:active, a:hover, a:focus, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.brand span {
+    color: #ed2333;
+    font-weight: 200;
+}
+.brand span.flag {
+    color: #fff;
+    background: #ed2333;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 5px;
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+.enter-maomi {
+	width: 75%;
+    text-align: center;
+	line-height: 40px;
+    border: 1px solid #1D7AD9;
+	border-radius: 4px;
+	margin-bottom:20px
+	
+}
+
+.enter-icon {
+    width: 32px;
+    height: 41px;
+	float: left;
+    margin-right: 5px;
+	background-color: #1D7AD9;
+ 
+}
+.enter-link a{
+	display:block;
+}
+.icon {
+	width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon_hand {
+	width: 27px;
+    height: 27px;
+    vertical-align: middle;
+	background-image: url(../img/hand.png);
+}
+.c_black {
+    color: #333;
+	line-height: 30px;
+	font-size:12px;
+}
+.c_blue {
+    color: #1D7AD9;
+}
+.c_link{
+	font-size:14px;
+	line-height: 30px;
+}
+.fri_link{
+	overflow:hidden;
+	width:80%
+}
+.fri_link li{
+	float:left;
+	display:block;
+	font-size: .875rem;
+	width: 33.33333333%;
+
+}
+
+.icon_ios_shared {
+    background-image: url(../img/ios_share.png);
+}
+.icon_android_share {
+    background-image: url(../img/android_share.png);
+}
