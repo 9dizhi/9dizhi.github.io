@@ -101,12 +101,12 @@ a, a:active, a:hover, a:focus, a:visited{
 }
 
 .enter-maomi {
-	width: 75%;
+	width: 65%;
     text-align: center;
 	line-height: 40px;
     border: 1px solid #1D7AD9;
 	border-radius: 4px;
-	margin-bottom:20px
+	margin-bottom:10px
 	
 }
 
