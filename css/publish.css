@@ -166,3 +166,6 @@ a, a:active, a:hover, a:focus, a:visited{
 .icon_android_share {
     background-image: url(../img/android_share.png);
 }
+.icon_android_more {
+    background-image: url(../img/android_more.png);
+}
